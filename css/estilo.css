@@ -1,16 +1,18 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
-
 body{
-  background-image:url("../img/pink-background.jpg");
-  background-size: auto 100vh;
-  font-family: arial;
+  background-image: url('../img/coronavirus.jpg');
+  background-size: auto 100vh; 
+  font-family: 'Source Code Pro', monospace;
   height: 100vh;
   font-size: 12px;
-  
+  color: #FF8C00;
+}
+
+
+ .mascara {
+	  width: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
 }
 
 /*se a tela tiver pelo menos 400px vai carregar estes estilos*/
@@ -30,15 +32,15 @@ body{
 /* breakpoint */ 
 @media(min-width:1200px){
   body{
-    font-size: 20px;  }
+    font-size: 20px;
 }
+
 header{
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .menu{
   background-color: white;
@@ -70,29 +72,21 @@ a:hover{
   text-decoration: underline;
 }
 
-.site-subtitle,
-.site-title{
-  color: whitesmoke;
-  text-align: center; 
-}
-
-  .site-title{
-    font-size: 4em;
-    font-family: 'Gloria Hallelujah',cursive;
-  }
-
-.site-subtitle{
-  font-style:italic;
-  font-family: 'Press Start 2P', cursive;
-  line-height: 1.8em
-}
-
-.Portfolio h2 {
-  font-family: 'Press Start 2P', cursive;
+.titulo_site,
+.subtitulo{
+  	text-align: center;
+  	margin-top: 0;
 }
 
 
-.img-portfolio{
-  width: 180px;
-  height: 180px;
+.titulo_site{
+	 font-size: 4em;
+}
+
+.subtitulo{
+	 font-size: 2.4em;
+}
+
+img{
+  border-radius: 20px;
 }
